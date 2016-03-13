@@ -365,3 +365,6 @@ body {
     transform: rotate(90deg);
 }
 
+.resume {
+    padding-top: 10px;
+}
