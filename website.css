@@ -368,3 +368,116 @@ body {
 .resume {
     padding-top: 10px;
 }
+
+@keyframes fade2 {
+    0%   { opacity: 0;}
+    25%   { opacity: 1;}
+    50%   { opacity: 1;}
+    76%   { opacity: 0;}
+}
+.fadein2 {
+
+}
+
+.fadein2 img { 
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    opacity: 0; 
+    animation-name: fade2; 
+    animation-duration: 6s; 
+    animation-iteration-count: infinite; 
+}
+
+.fadein2 img:nth-child(1) { 
+    animation-delay: 0s;  
+}
+
+.fadein2 img:nth-child(2) { 
+    animation-delay: 3s;  
+}
+
+@keyframes fade5 {
+    0%   { opacity: 0; }
+    10%   {opacity: 1; }
+    20%   { opacity: 1; }
+    31%   {opacity: 0; }
+    
+}
+.fadein5 {
+
+}
+
+.fadein5 img { 
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    opacity: 0; 
+    animation-name: fade5; 
+    animation-duration: 15s; 
+    animation-iteration-count: infinite; 
+}
+
+.fadein5 img:nth-child(1) { 
+    animation-delay: 0s;  
+}
+
+.fadein5 img:nth-child(2) { 
+    animation-delay: 3s;  
+}
+
+.fadein5 img:nth-child(3) { 
+    animation-delay: 6s;  
+}
+
+.fadein5 img:nth-child(4) { 
+    animation-delay: 9s;  
+}
+
+.fadein5 img:nth-child(5) { 
+    animation-delay: 12s;  
+}
+
+.snowman {
+    border-radius: 5%;
+    align-self: center;
+    height: 300px;
+    width: 300px;
+}
+
+@keyframes fade4 {
+    0%   { opacity: 0; }
+    12.5%   {opacity: 1; }
+    25%   { opacity: 1; }
+    37.5%   {opacity: 0; }
+    
+}
+.fadein4 {
+
+}
+
+.fadein4 img { 
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    opacity: 0; 
+    animation-name: fade4; 
+    animation-duration: 12s; 
+    animation-iteration-count: infinite; 
+}
+
+.fadein4 img:nth-child(1) { 
+    animation-delay: 0s;  
+}
+
+.fadein4 img:nth-child(2) { 
+    animation-delay: 3s;  
+}
+
+.fadein4 img:nth-child(3) { 
+    animation-delay: 6s;  
+}
+
+.fadein4 img:nth-child(4) { 
+    animation-delay: 9s;  
+}
