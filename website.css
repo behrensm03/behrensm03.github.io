@@ -212,7 +212,7 @@ body {
 }
 
 #giantskills {
-    padding-bottom: 350px;
+    padding-bottom: 200px;
 }
 
 #giantclasses {
@@ -307,8 +307,9 @@ body {
     height: 720px;
 }
 
-#facebook {
-    color: #36ADFF;
+.facebook {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
 }
 
 @keyframes fade {
@@ -360,6 +361,10 @@ body {
     padding-top: 140px;
 }
 
+#slide3 {
+    padding-top: 220px;
+}
+
 .bessie {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -375,6 +380,7 @@ body {
     50%   { opacity: 1;}
     76%   { opacity: 0;}
 }
+
 .fadein2 {
 
 }
@@ -404,6 +410,7 @@ body {
     31%   {opacity: 0; }
     
 }
+
 .fadein5 {
 
 }
@@ -480,4 +487,9 @@ body {
 
 .fadein4 img:nth-child(4) { 
     animation-delay: 9s;  
+}
+
+.resume {
+    height: 75px;
+    width: 75px;
 }
