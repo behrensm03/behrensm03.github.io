@@ -349,7 +349,6 @@ body {
 #newskills {
     width: 300px;
     border-radius: 5%;
-    align-self: center;
 }
 
 #slide {
@@ -492,4 +491,8 @@ body {
 .resume {
     height: 75px;
     width: 75px;
+}
+
+#thenavbar {
+    margin-top: 10px;
 }
