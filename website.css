@@ -212,7 +212,7 @@ body {
 }
 
 #giantskills {
-    padding-bottom: 200px;
+    padding-bottom: 350px;
 }
 
 #giantclasses {
@@ -353,14 +353,18 @@ body {
 
 #slide {
     height: 300px;
+    width: 300px;
 }
 
 #slide2 {
     height: 300px;
+    width: 300px;
     padding-top: 140px;
 }
 
 #slide3 {
+    height: 300px;
+    width: 300px;
     padding-top: 220px;
 }
 
@@ -495,4 +499,18 @@ body {
 
 #thenavbar {
     margin-top: 10px;
+}
+
+#chocolatecomptitle {
+    padding-top: 270px;
+}
+
+#chocolatecompimage {
+    padding-top: 150px;
+}
+
+#chocolatecompdescription {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #646464;
 }
