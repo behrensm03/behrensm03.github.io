@@ -164,7 +164,7 @@ body {
 
 #giantprojects {
     background-color: #f1f1f1;
-    padding-bottom: 700px;
+    padding-bottom: 1200px;
 }
 
 #skillspictures3{
@@ -506,11 +506,17 @@ body {
 }
 
 #chocolatecompimage {
-    padding-top: 150px;
+    padding-top: 225px;
 }
 
 #chocolatecompdescription {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #646464;
+    padding-top: 100px;
+}
+
+.cake {
+    height: 300px;
+    border-radius: 5%;
 }
