@@ -106,8 +106,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #646464;
-    position: relative;
-    top: 300px;
+    padding-top: 300px;
 }
 
 #safewalkimage {
@@ -115,9 +114,6 @@ body {
     transform: rotate(90deg);
     position: relative;
     top: 200px;
-}
-
-#safewalkpicture {
     border-radius: 10%;
 }
 
@@ -125,8 +121,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     color: #646464;
-    position: relative;
-    top: 330px;
+    padding-top: 50px;
 }
 
 #skillstitle {
@@ -164,7 +159,7 @@ body {
 
 #giantprojects {
     background-color: #f1f1f1;
-    padding-bottom: 1200px;
+
 }
 
 #skillspictures3{
@@ -288,6 +283,11 @@ body {
 
 .navbar-custom {
     background-color: transparent;
+    text-align: center;
+}
+
+#thenavbar {
+    margin-top: 10px;
 }
 
 #bottom {
@@ -360,12 +360,13 @@ body {
     height: 300px;
     width: 300px;
     padding-top: 140px;
+    padding-bottom: 100px;
 }
 
 #slide3 {
     height: 300px;
     width: 300px;
-    padding-top: 220px;
+    padding-top: 250px;
 }
 
 .bessie {
@@ -497,14 +498,6 @@ body {
     width: 75px;
 }
 
-#thenavbar {
-    margin-top: 10px;
-}
-
-#chocolatecomptitle {
-    padding-top: 270px;
-}
-
 #chocolatecompimage {
     padding-top: 225px;
 }
@@ -514,9 +507,11 @@ body {
     font-size: 15px;
     color: #646464;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .cake {
-    height: 300px;
+    height: 250px;
     border-radius: 5%;
 }
+
