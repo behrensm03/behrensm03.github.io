@@ -110,8 +110,6 @@ body {
 }
 
 #safewalkimage {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
     position: relative;
     top: 200px;
     border-radius: 10%;
@@ -259,7 +257,7 @@ body {
 }
 
 .nav.navbar-nav {
-    background-color: #EFF8FB;
+    background-color: transparent;
 }
 
 .navbar-custom ul.nav li a {
@@ -273,12 +271,7 @@ body {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    background-color: #E4EDF0;
-}
-
-.navbar-custom .nav li a:hover {
-    outline: 0;
-    background-color: #E4EDF0;
+    background-color: white;
 }
 
 .navbar-custom {
@@ -511,7 +504,7 @@ body {
 }
 
 .cake {
-    height: 250px;
+    width: 250px;
     border-radius: 5%;
 }
 
