@@ -124,9 +124,8 @@ body {
 #skillstitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
-    position: relative;
-    top: 60px;
     padding-bottom: 50px;
+    padding-top: 40px;
 }
 
 .skillsrow1 {
@@ -204,7 +203,7 @@ body {
 }
 
 #giantskills {
-    padding-bottom: 350px;
+    padding-bottom: 50px;
 }
 
 #giantclasses {
@@ -278,8 +277,18 @@ body {
     text-align: center;
 }
 
-#thenavbar {
+#nav {
     margin-top: 10px;
+    text-decoration: none;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+#nav a:hover{
+    background:white none;
+    color: black;
 }
 
 #bottom {
@@ -441,7 +450,6 @@ body {
 }
 
 .snowman {
-    border-radius: 5%;
     align-self: center;
     height: 300px;
     width: 300px;
@@ -497,7 +505,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #646464;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -505,3 +513,45 @@ body {
     width: 250px;
 }
 
+.fadein4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.fadein5 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.fadein img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.fadein2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.skill {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #646464;
+    padding-bottom: 40px;
+}
+
+.inventor {
+    padding-top: 350px;
+}
