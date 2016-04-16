@@ -369,11 +369,6 @@ body {
     padding-top: 250px;
 }
 
-.bessie {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
 .resume {
     padding-top: 10px;
 }
