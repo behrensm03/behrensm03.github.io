@@ -202,10 +202,13 @@ body {
     padding-bottom: 50px;
 }
 
-#instagram {
-    height: 75px;
-    width: 75px;
+.instagram {
+    width: 10%;
     border-radius: 50%;
+}
+
+.resume {
+    width: 10%;
 }
 
 #bottom {
@@ -286,11 +289,19 @@ body {
 }
 
 #top {
-    background-image: url(http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-background-cropped-version.jpg);
+    background-image: url(../../images/Picture1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
+
+/* 
+
+http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-background-cropped-version.jpg 
+
+../../images/Picture1.png
+
+*/
 
 .facebook {
     -webkit-transform: rotate(270deg);
@@ -351,10 +362,6 @@ body {
     height: 300px;
     width: 300px;
     padding-top: 250px;
-}
-
-.resume {
-    padding-top: 10px;
 }
 
 @keyframes fade2 {
