@@ -9,7 +9,7 @@ html, body {
     padding-bottom: 30px;
 }
 
-#name {
+.name {
     font-size: 80px;
     color: white;
     top: 50px;
@@ -191,7 +191,7 @@ body {
 
 #giantclasses {
     background-color: #f1f1f1;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     padding-top: 200px;
 }
 
@@ -488,7 +488,6 @@ http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-
     font-size: 15px;
     color: #646464;
     padding-top: 50px;
-    padding-bottom: 100px;
 }
 
 .cake {
@@ -551,7 +550,16 @@ http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-
 }
 
 .websiteexample {
-    width: 45%;
+    width: 90%;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.hrab {
+    width: 20%;
+    background-color: #36ADFF;
+    height: 0.5px;
+    color: #36ADFF;
+    border-color: #36ADFF;
 }
