@@ -2,10 +2,9 @@ html, body {
     height: 100%;
 }
 
-#aboutmetitle {
+.aboutmetitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
-    position: relative;
     padding-bottom: 30px;
 }
 
@@ -30,41 +29,25 @@ body {
     position: relative;
 }
 
-#me {
+.headshot {
     border-radius: 50%;
     height: 300px;
     position: relative;
 }
 
-#aboutme {
+.aboutme {
     color: #646464;
     margin-left: auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     padding-bottom: 30px;
     padding-top: 30px;
-    position: relative;
 }
 
-#soccer {
+.soccer {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    position: relative;
-}
-
-#baseball {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: relative;
-}
-
-#guitar {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: relative;
 }
 
 .description {
@@ -78,41 +61,41 @@ body {
     padding-bottom: 50px;
 }
 
-#projectstitle {
+.projectstitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
-    position: relative;
-    top: 60px;
+    padding-bottom: 15%;
+    padding-top: 15%;
 }
 
-#safewalktitle {
+.safewalktitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
-    position: relative;
-    top: 130px;
+    padding-top: 50px;
     color: #646464;
 }
 
-#safewalkabstract {
+.safewalkabstract {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    color: #646464;
-    padding-top: 300px;
-}
-
-#safewalkimage {
-    position: relative;
-    top: 200px;
-}
-
-#linktovideo {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
     color: #646464;
     padding-top: 50px;
 }
 
-#skillstitle {
+.safewalkimage {
+    padding-top: 50px;
+    width: 80%;
+}
+
+.linktovideo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #646464;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.skillstitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     padding-bottom: 50px;
@@ -137,7 +120,7 @@ body {
 }
 
 #giantprojects {
-    background-color: #f1f1f1;
+    background-color: white;
     padding-bottom: 200px;
 }
 
@@ -169,11 +152,10 @@ body {
     top: 60px;
 }
 
-#coursestitle {
+.coursestitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
-    position: relative;
-    top: -100px;
+    padding-top: 50px;
 }
 
 .courses {
@@ -191,8 +173,7 @@ body {
 
 #giantclasses {
     background-color: #f1f1f1;
-    padding-bottom: 100px;
-    padding-top: 200px;
+    height: 100%;
 }
 
 .years {
@@ -221,7 +202,7 @@ body {
 }
 
 #giantcontact {
-    padding-bottom: 270px;
+    height: 100%;
 }
 
 .navbar-brand {
@@ -230,7 +211,7 @@ body {
     font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: white;
+    background-color: #F0F0F0;
 }
 
 .navbar-brand:focus {
@@ -238,7 +219,7 @@ body {
 }
 
 .nav.navbar-nav {
-    background-color: white;
+    background-color: #F0F0F0;
 }
 
 .navbar-custom ul.nav li a {
@@ -279,16 +260,13 @@ body {
     top: 100px;
 }
 
-.timlupo {
-    text-decoration: none;
-    color: #646464;
-}
-
 #top {
     background-image: url(../../images/Picture1.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* 
@@ -338,8 +316,8 @@ http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-
     animation-delay: 6s;  
 }
 
-#newskills {
-    width: 300px;
+.newskills {
+    width: 80%;
 }
 
 #slide {
@@ -429,12 +407,6 @@ http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-
 
 .fadein5 img:nth-child(5) { 
     animation-delay: 12s;  
-}
-
-.snowman {
-    align-self: center;
-    height: 300px;
-    width: 300px;
 }
 
 @keyframes fade4 {
@@ -545,7 +517,7 @@ http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #646464;
-    padding-top: 250px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -556,10 +528,36 @@ http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-
     padding-bottom: 25px;
 }
 
-.hrab {
+hr {
     width: 20%;
-    background-color: #36ADFF;
-    height: 0.5px;
-    color: #36ADFF;
-    border-color: #36ADFF;
+    border-color: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+.parallax {
+    background-image: url(../../images/chocolatecompwide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
 }
