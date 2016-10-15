@@ -131,13 +131,6 @@ body {
     border-radius: 10%;
 }
 
-.skillsrow2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    color: #646464;
-    padding-top: 80px;
-}
-
 .skillspictures3ink {
     width: 300px;
     position: relative;
@@ -503,6 +496,14 @@ http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-
     font-size: 30px;
     color: #646464;
     padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.skill2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #646464;
+    padding-bottom: 40px;
 }
 
 .inventor {
@@ -554,6 +555,16 @@ hr {
 
 .parallax {
     background-image: url(../../images/chocolatecompwide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+}
+
+.parallax2 {
+    background-image: url(../../images/widerevit.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
