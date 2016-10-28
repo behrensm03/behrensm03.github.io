@@ -155,9 +155,8 @@ body {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    position: relative;
-    top: 30px;
     color: black;
+    padding-top: 25px;
 }
 
 #giantskills {
@@ -166,7 +165,6 @@ body {
 
 #giantclasses {
     background-color: #f1f1f1;
-    height: 100%;
 }
 
 .years {
@@ -174,6 +172,7 @@ body {
     font-size: 30px;
     color: #36ADFF;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .instagram {
@@ -571,4 +570,58 @@ hr {
     background-attachment: fixed;
     background-position: center;
     color: black;
+}
+
+.parallax3 {
+    background-image: url(../../images/bcagraduation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+}
+
+.pptpreview {
+    width: 60%;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+.info {
+    padding-top: 100px;
+}
+
+.bw2 {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.bw2:hover {
+    width: 70%;
+}
+
+.infotitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.safewalkinfobg {
+    background-image: url(../../images/Picture1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.back {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
 }

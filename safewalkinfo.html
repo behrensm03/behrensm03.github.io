@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Michael Behrens</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="safewalkinfobg">
+    
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" id="nav">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand smoothScroll" href="index.html">Michael Behrens</a>
+            </div>
+
+        </div>
+    </nav>
+    
+    <div>
+        
+        <div class="row info">
+            <div class="col-sm-4 col-sm-offset-1 infotitle">
+                Development<br>
+                <a href="images/safewalkppt.pdf" target="_blank">
+                    <img src="images/safewalkpptpreview.jpg" class="pptpreview bw2">
+                </a>
+            </div>
+        
+            <div class="col-sm-4 col-sm-offset-2 infotitle">
+                Construction<br>
+                <a href="images/safewalkinstructables.pdf" target="_blank">
+                    <img src="images/safewalkinstructablespreview.jpg" class="pptpreview bw2">
+                </a>
+            </div>
+        </div>
+        
+        <div class="row">
+            
+                <div class="col-sm-2 col-sm-offset-5 back">
+                    Back<br>
+            <a href="index.html"><span><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></span></a>
+                </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript">
+            $(function() {
+                $(window).scroll(function(){
+					var scrollTop = $(window).scrollTop();
+					if(scrollTop != 0)
+						$('#nav').stop().animate({'opacity':'0.4'},50);
+					else	
+						$('#nav').stop().animate({'opacity':'1'},400);
+				});
+				
+				$('#nav').hover(
+					function (e) {
+						var scrollTop = $(window).scrollTop();
+						if(scrollTop != 0){
+							$('#nav').stop().animate({'opacity':'1'},400);
+						}
+					},
+					function (e) {
+						var scrollTop = $(window).scrollTop();
+						if(scrollTop != 0){
+							$('#nav').stop().animate({'opacity':'0.4'},400);
+						}
+					}
+				);
+            });
+        </script>
+    <script src="/js/wow.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script> new WOW().init(); </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
