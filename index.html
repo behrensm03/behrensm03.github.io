@@ -34,6 +34,41 @@
     		});
 		});
 	</script>
+    
+    <style>
+
+a:link {
+    text-decoration: none;
+    color: #36ADFF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #36ADFF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+}
+        
+a { 
+	text-decoration: none; 
+	-webkit-transition: background-color .5s linear, color .5s linear;
+	-moz-transition: background-color .5s linear, color .5s linear;
+	-o-transition: background-color .5s linear, color .5s linear;
+	-ms-transition: background-color .5s linear, color .5s linear;
+	transition: background-color .5s linear, color .5s linear;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+}
+    </style>
+    
+    
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
     
@@ -45,7 +80,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand smoothScroll" href="index.html">Michael Behrens</a>
+                <a class="navbar-brand smoothScroll">Michael Behrens</a>
             </div>
             <div class="navbar-collapse collapse navbar-right" id="navbarCollapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -54,7 +89,7 @@
                     <li><a href="#giantprojects" class="smoothScroll">Projects</a></li>
                     <li><a href="#giantskills" class="smoothScroll">Skills</a></li>
                     <li><a href="#giantclasses" class="smoothScroll">Classes</a></li>
-                    <li><a href="#giantcontact" class="smoothScroll">Contact</a></li>
+                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -79,7 +114,7 @@
     <div id="giantaboutme">
         
         <div class="col-sm-12 aboutmetitle">About Me</div><hr>
-        <img src="images/me.jpg" align="middle" class="headshot">
+        <img src="images/seniorportrait.jpg" align="middle" class="headshot">
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6 aboutme">
@@ -95,8 +130,8 @@
     <div id="giantthreepictures">
         <div class="row centered">
             <div class="col-sm-4">
-                <img src="images/soccer.jpg" class="soccer" align="middle">
-                <div class="description">I have been playing <span style="color:#36ADFF"><strong>soccer</strong></span> since I was about 5 years old, and I currently play as a <span style="color:#36ADFF"><strong>midfielder</strong></span> for my high school team, the <span style="color:#36ADFF"><strong><a href="http://bcts.bergen.org/index.php/athletics" target="_blank">Bergen Tech Knights</a></strong></span>.
+                <img src="images/soccer2.JPG" class="soccer" align="middle">
+                <div class="description">I have been playing <span style="color:#36ADFF"><strong>soccer</strong></span> since I was about 5 years old, and I currently play as a <span style="color:#36ADFF"><strong>midfielder</strong></span> for the <span style="color:#36ADFF"><strong><a href="http://bcts.bergen.org/index.php/athletics" target="_blank">Bergen Tech Knights</a></strong></span>, the <span style="color:#36ADFF">2016 Vo-Tech Champions</span>.
                 </div>
             </div>
             <div class="col-sm-4">
@@ -166,7 +201,7 @@
         
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3 webdevelopment">
-                Other projects I have worked on have mostly been web development. In addition to this website, I have built two others. If you are interested in having a website built, <a href="#giantcontact" class="smoothScroll">contact me</a>.
+                Other projects I have worked on have mostly been web development. In addition to this website, I have built two others. If you are interested in having a website built, <a href="#contact" class="smoothScroll">contact me</a>.
             </div>
         </div>
         
@@ -252,7 +287,7 @@
     <div id="giantclasses">
         
         <div class="parallax3">
-            <div class="projectstitle"><span style="background-color:#f1f1f1">Related Courses</span><hr></div>
+            <div class="projectstitle"><span style="background-color:#f1f1f1">Related Classes</span><hr></div>
         </div>
         
         <div class="row">
@@ -306,48 +341,46 @@
     
     
     
-    
-    <div id="giantcontact">
+    <div id="contact">
+        
         <div class="row">
-            <div class="col-sm-12" id="contactme">
+            <div class="col-sm-12 contactme">
                 Contact Me<hr>
             </div>
         </div>
         
-        <div id="socialmedia">
+        <div class="row socialmedia">
+            <div class="col-sm-6 col-sm-offset-3">
+                <a href="https://www.facebook.com/michael.behrens.73744" target="_blank">
+                    <i class="fa fa-facebook-square fa-3x contacticon wow fadeInUp facebook" data-wow-delay="0.15s" aria-hidden="true"></i>
+                </a>
+                
+                <a href="https://www.instagram.com/mbehr03/" target="_blank">
+                    <i class="fa fa-instagram fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i>
+                </a>
+                
+                <a href="mailto:behrensm03@gmail.com">
+                    <i class="fa fa-envelope-o fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i></i>
+                </a>
+                
+                <a href="https://github.com/behrensm03" target="_blank">
+                    <i class="fa fa-github fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i>
+                </a>
+                
+                <a href="images/resumecopy.pdf" target="_blank">
+                    <i class="fa fa-file-text-o fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i>
+                </a>
             
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <a href="https://www.facebook.com/michael.behrens.73744" target="_blank">
-                        <img src="images/facebook.svg" class="instagram wow fadeInUp" data-wow-delay="0.15s">
-                    </a>
-                    <a href="https://www.instagram.com/mbehr03/" target="_blank">
-                        <img src="images/new%20instagram.png" class="instagram wow fadeInUp wow fadeInUp wow fadeInUp wow fadeInUp wow fadeInUp" data-wow-delay="0.15s">
-                    </a>
-                    <a href="mailto:behrensm03@gmail.com">
-                        <img src="images/email.svg" class="instagram wow fadeInUp wow fadeInUp wow fadeInUp wow fadeInUp" data-wow-delay="0.15s">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCyZT4NlcYJEh2A11NOXzYsw" target="_blank">
-                        <img src="images/youtube.svg" class="instagram wow fadeInUp wow fadeInUp wow fadeInUp" data-wow-delay="0.15s">
-                    </a>
-                    <a href="https://github.com/behrensm03" target="_blank">
-                        <img src="images/github.svg" class="instagram wow fadeInUp wow fadeInUp" data-wow-delay="0.15s">
-                    </a>
-                    <a href="images/resumecopy.pdf" target="_blank">
-                        <img src="images/document-in-circular-button.svg" class="instagram wow fadeInUp" data-wow-delay="0.15s">
-                    </a>
-                </div>
+                <a href="https://www.youtube.com/channel/UCyZT4NlcYJEh2A11NOXzYsw" target="_blank">
+                    <i class="fa fa-youtube-square fa-3x contacticon wow fadeInUp youtube" data-wow-delay="0.15s" aria-hidden="true"></i>
+                </a>
+                
             </div>
         </div>
-        <div id="bottom" class="col-sm-2 col-sm-offset-5 wow bounce" data-wow-delay="2s">
-                <a class="smoothScroll" href="#top">
-                    <img src="images/arrow.svg" class="facebook">
-                </a>
-        </div>
+        
     </div>
     
     
-    <!-- Icons made by Bogdan Rosu from www.flaticon.com licensed by CC 3.0 BY -->
     
     
       <script type="text/javascript">

@@ -138,7 +138,7 @@ body {
     border-radius: 10%;
 }
 
-#contactme {
+.contactme {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     position: relative;
@@ -176,8 +176,16 @@ body {
 }
 
 .instagram {
-    width: 10%;
-    border-radius: 50%;
+    color: #646464;
+}
+
+.instagram:hover {
+    color: black;
+      -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
 }
 
 #bottom {
@@ -185,11 +193,9 @@ body {
     top: 825px;
 }
 
-#socialmedia {
+.socialmedia {
     padding-bottom: 100px;
-    padding-top: 100px;
-    position: relative;
-    top: 70px;
+    padding-top: 150px;
     color: black;
 }
 
@@ -228,6 +234,7 @@ body {
     background-color: white;
 }
 
+
 .navbar-custom {
     background-color: transparent;
     text-align: center;
@@ -261,17 +268,17 @@ body {
     background-position: center;
 }
 
-/* 
-
-http://www.westsideflats.com/wp-content/uploads/2013/11/1-WSF-photoshop-Website-background-cropped-version.jpg 
-
-../../images/Picture1.png
-
-*/
-
 .facebook {
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
+    color: #3B5998;
+}
+
+.facebook:hover {
+    color: black;
+      -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
 }
 
 @keyframes fade {
@@ -592,18 +599,6 @@ hr {
     padding-top: 100px;
 }
 
-.bw2 {
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-}
- 
-.bw2:hover {
-    width: 70%;
-}
-
 .infotitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
@@ -624,4 +619,36 @@ hr {
     font-size: 20px;
     color: white;
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.arrowtop {
+    color: black;
+}
+
+.arrowtop:hover {
+    color: #646464;
+      -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.contacticon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.youtube:hover {
+    color: black;
+    -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
 }
