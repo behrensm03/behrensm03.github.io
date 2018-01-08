@@ -1,55 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Michael Behrens</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta name="author" content="Michael Behrens">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <script src="https://use.fontawesome.com/85eb700f36.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/hover.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script>
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-	</script>
-    
+    <title>Michael Behrens</title>
     <style>
 
 a:link {
     text-decoration: none;
-    color: #36ADFF;
+    color: black;
 }
 
 a:visited {
     text-decoration: none;
-    color: #36ADFF;
+    color: black;
 }
 
 a:hover {
     text-decoration: none;
-    color: black;
+    color: #8A8A8A;
 }
 
 a:active {
@@ -67,340 +49,179 @@ a {
     -webkit-transition-timing-function: linear;
 }
     </style>
-    
-    
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
     
     
-
+    
+<body class="">
+    
+                    <!--        NAVBAR        -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" id="nav">
-        <div class="container">
+        <div class="container navbar-inner">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand smoothScroll">Michael Behrens</a>
+                <a class="navbar-brand">Michael Behrens</a>
             </div>
             <div class="navbar-collapse collapse navbar-right" id="navbarCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#top" class="smoothScroll">Home</a></li>
-                    <li><a href="#giantaboutme" class="smoothScroll">About</a></li>              
-                    <li><a href="#giantprojects" class="smoothScroll">Projects</a></li>
-                    <li><a href="#giantskills" class="smoothScroll">Skills</a></li>
-                    <li><a href="#giantclasses" class="smoothScroll">Classes</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
-    </nav>    
+    </nav>
+    
 
     
-    
-    
+                    <!--        TOP        -->
     <div id="top">
-        <div class="row centered">
+        <div class="row">
            <div class="name">
                MICHAEL BEHRENS
             </div>
         </div>
     </div>
-        
     
     
-    
-    
-    
-    <div id="giantaboutme">
-        
-        <div class="col-sm-12 aboutmetitle">About Me</div><hr>
-        <img src="images/seniorportrait.jpg" align="middle" class="headshot">
+                    <!--        ABOUT        -->
+    <div id="about">
+        <div class="abouttitle">
+            ABOUT ME
+        </div>
+        <hr>
         <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6 aboutme">
-                I am a 12<sup>th</sup> grader at the <span style="color:#36ADFF"><strong><a href="https://bcts.bergen.org/index.php/2016-05-10-17-30-50/bcts-campuses" target="_blank">Bergen County Academies</a></strong></span> in Hackensack</a>, New Jersey. I am enrolled in <span style="color:#36ADFF"><strong><a href="https://bcts.bergen.org/index.php/about-us/academy-programs/academy-for-the-engineering-and-design-technology" target="_blank">AEDT</a></strong></span>, the Academy of Engineering and Design Technology. <span style="color:#36ADFF"><strong>Engineering</strong></span>, <span style="color:#36ADFF"><strong>science</strong></span>, and <span style="color:#36ADFF"><strong>math</strong></span> have always been the most interesting subjects to me as well as my strongest subjects. In my free time, I love to play <span style="color:#36ADFF"><strong>sports</strong></span> and <span style="color:#36ADFF"><strong>music</strong></span>.
+            <div class="col-lg-6 col-lg-offset-3">
+                <img src="images/seniorportrait.jpg" class="headshot">
             </div>
         </div>
-    </div>
-    
-     
-    
-    
-
-    <div id="giantthreepictures">
-        <div class="row centered">
-            <div class="col-sm-4">
-                <div class="contain">
-                    <div class="dummy"></div>
-                    <div class="element"></div>
-                </div>
-                <div class="description">I have been playing <span style="color:#36ADFF"><strong>soccer</strong></span> since I was about 5 years old, and I currently play as a <span style="color:#36ADFF"><strong>midfielder</strong></span> for the <span style="color:#36ADFF"><strong><a href="http://bcts.bergen.org/index.php/athletics" target="_blank">Bergen Tech Knights</a></strong></span>, the <span style="color:#36ADFF"><strong>2016 Vo-Tech Champions</strong></span>.
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <img src="images/other%20new%20baseball.png" class="soccer" align="middle">
-                <div class="description">I have been playing <span style="color:#36ADFF"><strong>baseball</strong></span> since I was about 4 years old, and I currently play for my high school team as a <span style="color:#36ADFF"><strong>shortstop</strong></span>, <span style="color:#36ADFF"><strong>2nd baseman</strong></span>, or <span style="color:#36ADFF"><strong>catcher</strong></span>.
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <img src="images/guitar%20pt%202.jpg" class="soccer" align="middle">
-                <div class="description">I have been playing <span style="color:#36ADFF"><strong>guitar</strong></span> since I was about 9 years old. I play classical guitar in my school's <span style="color:#36ADFF"><strong>Guitar and Mandolin Orchestra</strong></span> and I play electric guitar with friends and just for fun.
-                </div>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 description aboutdescription">
+                I am currently a freshman in the College of Engineering at Cornell University in Ithaca, NY. In my free time, I play on a club soccer team and a club baseball team. I also enjoy playing the electric guitar.
             </div>
         </div>
     </div>
     
     
-    
-    
-    <div id="giantprojects">
-        
-        <div class="parallax">
-            <div class="row projectstitle">
-                <span style="background-color:#f1f1f1">Projects</span><hr>
+                    <!--        PROJECTS        -->
+    <div id="projects">
+        <div class="projectstitlepage">
+            <div class="projectstitle">
+                <span style="background-color:#f1f1f1">PROJECTS</span><hr>
             </div>
         </div>
-        
-        
-        <div class="row safewalktitle">
-            Safewalk
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-2">
-                <img src="images/safewalkarmunextended.JPG" align="middle" class="safewalkimage">
-            </div>
-            <div class="col-sm-3 col-sm-offset-2 safewalkabstract">
-                The <span style="color:#36ADFF"><strong>Safewalk</strong></span> is an innovation I developed with my friend and classmate, <span style="color:#36ADFF"><strong>Casey Osborn</strong></span>, in BCA's <span style="color:#36ADFF"><strong>Mechatronics Research Lab</strong></span>. It is an innovative walker meant to help prevent falls and increase the mobility of the user. It is fitted with omni wheels which allow the walker to move in x and y directions simultaneously. Additionally, it has an <span style="color:#36ADFF"><strong>Anti-Fall Arm</strong></span>, which is an arm attached to the front of the walker. When the tilt sensor detects the walker is falling forward, an Arduino microcontroller triggers a motor which rotates and swings the <span style="color:#36ADFF"><strong>Anti-Fall Arm</strong></span> out to prevent the fall. The Arduino also triggers an LED to blink and a buzzer to sound. For more information on the Safewalk, click <a href="safewalkinfo.html">here</a>.
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 linktovideo">
-                See the Safewalk in action <a href="https://youtu.be/0U4NmUzq9Cc" target="_blank">here</a>
-            </div>
-        </div>
-    
-        <div class="row">
-            <div class="col-sm-12 safewalktitle">
-                Chocolate Competition
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-2">
-                <img src="images/cake.JPG" class="safewalkimage" align="middle">
-            </div>
-            <div class="col-sm-3 col-sm-offset-2 safewalkabstract">
-                BCA has an annual Chocolate Competition, in which students from the <span style="color:#36ADFF"><strong><a href="https://bcts.bergen.org/index.php/about-us/academy-programs/academy-for-culinary-arts-and-hotel-administration" target="_blank">Culinary Academy</a></strong></span> cooperate with students from AEDT to build a complex chocolate cake. I worked as the engineer for one of the cakes (titled <span style="color:#36ADFF"><strong>"Hats off to Dr. Seuss"</strong></span>), and I was responsible for designing and constructing the support structure that held up the several top layers of the cake without crushing the fragile bottom layer. The support structure is made up of a <span style="color:#36ADFF"><strong>polycarbonate base</strong></span>, several <span style="color:#36ADFF"><strong>PVC pipes functioning as dowels</strong></span>, and a <span style="color:#36ADFF"><strong>wooden platform</strong></span>. The cake I worked on won <span style="color:#36ADFF"><strong>first place</strong></span> in the 11<sup>th</sup> grade category.
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-12 safewalktitle">
-                Exo-Skeleton Arm
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-2">
-                <img src="images/exoskeleton.jpg" class="safewalkimage" align="middle">
-            </div>
-            <div class="col-sm-3 col-sm-offset-2 safewalkabstract">
-                This is a project I am currently working on with a classmate for my senior capstone project. The <span style="color:#36ADFF"><strong>Exo-Skeleton Arm</strong></span> is designed to provide assistance with simple movements to people with muscle disabilites. The project consists of an <span style="color:#36ADFF"><strong>arm attachment,</strong></span>, which is controlled by a linear <span style="color:#36ADFF"><strong>actuator</strong></span> and three <span style="color:#36ADFF"><strong>muscle sensors</strong></span>, and a <span style="color:#36ADFF"><strong>hand attachment</strong></span>, which consists of a <span style="color:#36ADFF"><strong>servo</strong></span> and <span style="color:#36ADFF"><strong>microcontroller</strong></span>.
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-12 safewalktitle">
-                Web Development
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 webdevelopment">
-                Other projects I have worked on have mostly been web development. In addition to this website, I have built two others. If you are interested in having a website built, <a href="#contact" class="smoothScroll">contact me</a>.
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-2">
-                <a href="http://dccusr.github.io/" target="_blank"><img src="images/examplewebsite1.png" class="websiteexample bw"></a>
-            </div>
-            <div class="col-sm-4">
-                <a href="http://projectciceronnj.org/" target="_blank"><img src="images/examplewebsite2.png" class="websiteexample bw"></a>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    
-    
-    <div id="giantskills">
-        
-        <div class="parallax2">
-            <div class="projectstitle"><span style="background-color:#f1f1f1">Skills</span><hr></div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-2 skillslide">
-                <div class="skill">AutoCAD</div>
-                <div class="fadein4">
-                    <img src="images/autocad1square.png" class="skills1">
-                    <img src="images/autocad2square.png" class="skills1">
-                    <img src="images/autocad3square.png" class="skills1">
-                    <img src="images/autocad4square.png" class="skills1">
-                </div>
-            </div>
-            <div class="col-sm-3 col-sm-offset-2 skillslide">
-                <div class="skill">AutoDesk Inventor</div>
-                <div class="fadein5">
-                    <img src="images/inventor1.png" class="skills1">
-                    <img src="images/inventor2square.png" class="skills1">
-                    <img src="images/inventor3.png" class="skills1">
-                    <img src="images/inventor4square.png" class="skills1">
-                    <img src="images/snowman%20square.png" class="skills1">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-2 skillslide">
-                <div class="skill">Laser Cutting</div>
-                <div class="fadein">
-                    <img src="images/bessie.png" class="skills1">
-                    <img src="images/marty.jpeg" class="skills1">
-                    <img src="images/seamus.jpeg" class="skills1">
-                </div>
-            </div>
-            <div class="col-sm-3 col-sm-offset-2 skillslide">
-                <div class="skill">3D Printing</div>
-                <div class="fadein2">
-                    <img src="images/other%20screen%20door%20square.png" class="skills1">
-                    <img src="images/screen%20door%20square.png" class="skills1">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-2 skillslide">
-                <div class="skill">AutoDesk Revit</div>
-                <div class="fadein2">
-                    <img src="images/revit1square.png" class="skills1">
-                    <img src="images/revit2square.png" class="skills1">
-                </div>
-            </div>
-            <div class="col-sm-3 col-sm-offset-2 skillslide">
-                <div class="skill">Waterjet</div>
-                    <img src="images/bessie%20waterjet.jpeg" class="skills1">
-            </div>
-        </div>
-        
-    </div>
-    
-    
-    
-    
-    <div id="giantclasses">
-        
-        <div class="parallax3">
-            <div class="projectstitle"><span style="background-color:#f1f1f1">Related Classes</span><hr></div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-3 years">
-                    Freshman Year
-                    <ul class="courses">
-                        <li>Introduction to Engineering Design I</li>
-                        <li>Introduction to Electronics</li>
-                        <li>Math Analysis I</li>
-                        <li>Physics</li>
-                        <li>Chemistry</li>
-                    </ul>
-            </div>
-            <div class="col-sm-3 years">
-                    Sophomore Year
-                    <ul class="courses">
-                        <li>Introduction to Engineering Design II</li>
-                        <li>Principles of Engineering</li>
-                        <li>Math Analysis II</li>
-                        <li>Physics</li>
-                        <li>Chemistry</li>
-                        <li>Biology</li>
-                        <li>Mechatronics Research Lab</li>
-                    </ul>
-            </div>
-            <div class="col-sm-3 years">
-                    Junior Year
-                    <ul class="courses">
-                        <li>Intermediate Electrical Engineering</li>
-                        <li>Computer Integrated Manufacturing</li>
-                        <li>AP Calculus AB</li>
-                        <li>Advanced Physics</li>
-                        <li>Advanced Chemistry</li>
-                        <li>Advanced Biology</li>
-                        <li>Civil Engineering and Architecture</li>
-                    </ul>
-            </div>
-            <div class="col-sm-3 years">
-                    Senior Year
-                    <ul class="courses">
-                        <li>Advanced Electrical Engineering</li>
-                        <li>Engineering Capstone</li>
-                        <li>Linear Algebra and Differential Equations</li>
-                        <li>AP Physics C</li>
-                        <li>AP Chemistry</li>
-                    </ul>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    
-    <div id="contact">
-        
-        <div class="row">
-            <div class="col-sm-12 contactme">
-                Contact Me<hr>
-            </div>
-        </div>
-        
-        <div class="row socialmedia">
-            <div class="col-sm-6 col-sm-offset-3">
-                <a href="https://www.facebook.com/michael.behrens.73744" target="_blank">
-                    <i class="fa fa-facebook-square fa-3x contacticon wow fadeInUp facebook" data-wow-delay="0.15s" aria-hidden="true"></i>
-                </a>
-                
-                <a href="https://www.instagram.com/mbehr03/" target="_blank">
-                    <i class="fa fa-instagram fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i>
-                </a>
-                
-                <a href="mailto:behrensm03@gmail.com">
-                    <i class="fa fa-envelope-o fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i></i>
-                </a>
-                
-                <a href="https://github.com/behrensm03" target="_blank">
-                    <i class="fa fa-github fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i>
-                </a>
-                
-                <a href="images/resumecopy.pdf" target="_blank">
-                    <i class="fa fa-file-text-o fa-3x contacticon wow fadeInUp instagram" data-wow-delay="0.15s" aria-hidden="true"></i>
-                </a>
+        <div class="projectsmain">
             
-                <a href="https://www.youtube.com/channel/UCyZT4NlcYJEh2A11NOXzYsw" target="_blank">
-                    <i class="fa fa-youtube-square fa-3x contacticon wow fadeInUp youtube" data-wow-delay="0.15s" aria-hidden="true"></i>
-                </a>
-                
+            
+            <div class="row projtitle">
+                <div class="col-lg-6 col-lg-offset-3">
+                    Web Development
+                </div>
             </div>
+            <div class="row wd description">
+                In addition to this one, I have built three websites so far, all of which can be found below.
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="https://mcb273.github.io/" target="_blank"><img src="images/cornellclubbaseball.png" class="wdimg"></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="http://projectciceronnj.org/" target="_blank"><img src="images/projectciceronnj.png" class="wdimg"></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="http://dccusr.github.io/" target="_blank"><img src="images/dccusr.png" class="wdimg"></a>
+                </div>
+            </div>
+            
+            
+            <div class="row projtitle">
+                <div class="col-lg-6 col-lg-offset-3">
+                    Exo Skeleton Arm
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/exoskeleton4.png" class="exoimg">
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/exoskeleton2.png" class="exoimg">
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/exoskeleton3.png" class="exoimg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 description exo">
+                    This is a project I designed and built with a classmate for my senior engineering capstone in high school. It is an arm attachment designed to provide assistance with simple arm movements to people with muscular dystrophy. The arm uses muscle sensors to detect electrical signals running through the user's bicep and tricep. Once signals beyond the threshold have been detected, the microcontroller triggers the actuator to extend or contract.
+                </div>
+            </div>
+            
+            
+            <div class="row projtitle">
+                <div class="col-lg-6 col-lg-offset-3">
+                    Chocolate Competition
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-lg-offset-2">
+                    <img src="images/cake.JPG" class="cake">
+                </div>
+                <div class="col-lg-3 col-lg-offset-2 description choc">
+                    BCA has an annual Chocolate Competition, in which students from the Culinary Academy cooperate with engineering students to build a complex chocolate cake. I worked as the engineer for one of the cakes (titled "Hats off to Dr. Seuss"), and I was responsible for designing and constructing the support structure that held up the several top layers of the cake without crushing the fragile bottom layer. The support structure is made up of a polycarbonate base, several segments of PVC pipe functioning as columns (located inside the bottom layer), and a wooden platform. The cake I worked on won first place in the 11th grade category.
+                </div>
+            </div>
+            
+            
+            <div class="row projtitle">
+                <div class="col-lg-6 col-lg-offset-3">
+                    Safewalk
+                </div>
+            </div>
+            <div class="row lastrow">
+                <div class="col-lg-3 col-lg-offset-2">
+                    <img src="images/safewalkarmunextended.JPG" class="safewalkimg">
+                </div>
+                <div class="col-lg-3 col-lg-offset-2 description">
+                    The Safewalk is an innovation I developed with classmate during my sophomore year of high school in BCA's Mechatronics Research Lab. It is an innovative walker meant to help prevent falls and increase the mobility of the user. It is fitted with omni wheels which allow the walker to move in x and y directions simultaneously. Additionally, it has an Anti-Fall Arm, which is an arm attached to the front of the walker. When the tilt sensor detects the walker is falling forward, an Arduino microcontroller triggers a motor which rotates and swings the Anti-Fall Arm out to prevent the fall. The Arduino also triggers an LED to blink and a buzzer to sound.
+                </div>
+            </div>
+            
+            
         </div>
-        
+        <footer id="contact">
+            <div class="row footer">
+                <div class="col-lg-6 col-lg-offset-3 contacttitle">
+                    CONTACT
+                </div>
+            </div>
+            <hr>
+            <div class="row footer footertext">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <a href="mailto:mcb273@cornell.edu">EMAIL</a> / <a href="images/resume.pdf" target="_blank">RESUME</a>
+                </div>
+            </div>
+        </footer>
     </div>
     
     
     
-    
-      <script type="text/javascript">
-            $(function() {
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+        new WOW().init();
+        $(function() {
                 $(window).scroll(function(){
 					var scrollTop = $(window).scrollTop();
 					if(scrollTop != 0)
@@ -424,18 +245,6 @@ a {
 					}
 				);
             });
-        </script>
-    <script src="/js/wow.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrollTo.js"></script>
-    <script> new WOW().init(); </script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    </script>
 </body>
 </html>
