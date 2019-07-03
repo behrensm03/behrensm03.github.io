@@ -238,8 +238,15 @@ hr {
 
 
 
+.underline {
+    text-decoration: underline;
+}
 
+.ios-container {
+    margin-top: 25px;
+}
 
-a .blue {
-    color: #1DB8D3;
+.ios {
+    max-width: 100%;
+    max-height: 400px;
 }

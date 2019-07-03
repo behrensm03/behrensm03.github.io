@@ -16,6 +16,7 @@
     <script src="https://use.fontawesome.com/85eb700f36.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script src="js/main.js"></script>
     <title>Michael Behrens</title>
     <style>
 
@@ -119,104 +120,151 @@ a {
         </div>
         <div class="projectsmain">
             <div class="container-fluid">
-            <div class="row projtitle">
-                <div class="col-lg-6 col-lg-offset-3">
-                    iOS Development
+                
+                <div class="row projtitle">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        iOS Development
+                    </div>
                 </div>
-            </div>
-            <div class="row wd description">
-                I have built a couple of simple iOS apps for my Intro to iOS Development class as well as on my own.
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    Synthesize<br>I was a member of the iOS Development team for this final project of my iOS class. 
-                    Along with one other iOS developer, we worked with 2 backend developers. Briefly, the app is designed to
-                    get students to collaborate with each other on assignments, especially students that don't know other students
-                    taking the class. Read more <a href="https://github.com/eli-zhang/synthesize" target="_blank" class="blue">here</a>.
+                
+                <div class="row wd description">
+                    I have built a couple of simple iOS apps for my Intro to iOS Development class as well as on my own.
                 </div>
-                <div class="col-lg-4">
-                    Internship Log
+                
+                <div class="row">
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-2">
+
+                            <div>
+                                <h3>Synthesize</h3><br>I was a member of the iOS Development team for this final project of my iOS class. Along with one other iOS developer, we worked with 2 backend developers. Briefly, the app is designed to get students to collaborate with each other on assignments, especially students that don't know other students taking the class. Read more <span class="underline"><a href="https://github.com/eli-zhang/synthesize" target="_blank" class="blue">here</a></span>.
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <h3>Internship Log</h3><br>blah blah blah i logged my internships
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-2 ios-container">
+                            <img src="images/synthesize-home.png" class="ios" id="synthesizeimg"/>
+                        </div>
+                        <div class="col-lg-4 ios-container">
+                            <img src="images/internshiplog-home.png" class="ios" id="internshiplogimg"/>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                
+<!--
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <h3>Synthesize</h3><br>I was a member of the iOS Development team for this final project of my iOS class. Along with one other iOS developer, we worked with 2 backend developers. Briefly, the app is designed to get students to collaborate with each other on assignments, especially students that don't know other students taking the class. Read more <span class="underline"><a href="https://github.com/eli-zhang/synthesize" target="_blank" class="blue">here</a></span>.
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Internship Log</h3><br>blah blah blah i logged my internships
+                    </div>
+                </div>
+-->
+                
+                <div class="row">
+<!--
+                    <div class="col-lg-4 col-lg-offset-2 ios-container">
+                        <img src="images/synthesize-home.png" class="ios" id="synthesizeimg"/>
+                    </div>
+                    <div class="col-lg-4 ios-container">
+                        <img src="images/internshiplog-home.png" class="ios" id="internshiplogimg"/>
+                    </div>
+-->
+                    <script>
+                        changeSynthesizeImg();
+                        changeInternshipLogImg();
+                    </script>
+                </div>
+            
+                <div class="row projtitle">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        Web Development
+                    </div>
+                </div>
+                
+                <div class="row wd description">
+                    In addition to this one, I have built four websites so far, all of which can be found below.
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <a href="http://thepedestriansband.com/" target="_blank"><img src="images/thepedestriansband.png" class="wdimg"></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="http://projectciceronnj.org/" target="_blank"><img src="images/projectciceronnj.png" class="wdimg"></a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <a href="http://dccusr.github.io/" target="_blank"><img src="images/dccusr.png" class="wdimg"></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="https://mcb273.github.io/" target="_blank"><img src="images/cornellclubbaseball.png" class="wdimg"></a>
+                    </div>
+                </div>
             
             
-            <div class="row projtitle">
-                <div class="col-lg-6 col-lg-offset-3">
-                    Web Development
+                <div class="row projtitle">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        Exo Skeleton Arm
+                    </div>
                 </div>
-            </div>
-            <div class="row wd description">
-                In addition to this one, I have built four websites so far, all of which can be found below.
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <a href="http://thepedestriansband.com/" target="_blank"><img src="images/thepedestriansband.png" class="wdimg"></a>
+                
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/exoskeleton4.png" class="exoimg">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/exoskeleton2.png" class="exoimg">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/exoskeleton3.png" class="exoimg">
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <a href="http://projectciceronnj.org/" target="_blank"><img src="images/projectciceronnj.png" class="wdimg"></a>
+                
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 description exo">
+                        This is a project I designed and built with a classmate for my senior engineering capstone in high school. It is an arm attachment designed to provide assistance with simple arm movements to people with muscular dystrophy. The arm uses muscle sensors to detect electrical signals running through the user's bicep and tricep. Once signals beyond the threshold have been detected, the microcontroller triggers the actuator to extend or contract.
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <a href="http://dccusr.github.io/" target="_blank"><img src="images/dccusr.png" class="wdimg"></a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="https://mcb273.github.io/" target="_blank"><img src="images/cornellclubbaseball.png" class="wdimg"></a>
-                </div>
-            </div>
             
             
-            <div class="row projtitle">
-                <div class="col-lg-6 col-lg-offset-3">
-                    Exo Skeleton Arm
+                <div class="row projtitle">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        Chocolate Competition
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="images/exoskeleton4.png" class="exoimg">
+                
+                <div class="row">
+                    <div class="col-lg-3 col-lg-offset-2">
+                        <img src="images/cake.JPG" class="cake">
+                    </div>
+                    <div class="col-lg-3 col-lg-offset-2 description choc">
+                        BCA has an annual Chocolate Competition, in which students from the Culinary Academy cooperate with engineering students to build a complex chocolate cake. I worked as the engineer for one of the cakes (titled "Hats off to Dr. Seuss"), and I was responsible for designing and constructing the support structure that held up the several top layers of the cake without crushing the fragile bottom layer. The support structure is made up of a polycarbonate base, several segments of PVC pipe functioning as columns (located inside the bottom layer), and a wooden platform. The cake I worked on won first place in the 11th grade category.
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="images/exoskeleton2.png" class="exoimg">
-                </div>
-                <div class="col-lg-4">
-                    <img src="images/exoskeleton3.png" class="exoimg">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 description exo">
-                    This is a project I designed and built with a classmate for my senior engineering capstone in high school. It is an arm attachment designed to provide assistance with simple arm movements to people with muscular dystrophy. The arm uses muscle sensors to detect electrical signals running through the user's bicep and tricep. Once signals beyond the threshold have been detected, the microcontroller triggers the actuator to extend or contract.
-                </div>
-            </div>
             
             
-            <div class="row projtitle">
-                <div class="col-lg-6 col-lg-offset-3">
-                    Chocolate Competition
+                <div class="row projtitle">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        Safewalk
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-lg-offset-2">
-                    <img src="images/cake.JPG" class="cake">
+                
+                <div class="row lastrow">
+                    <div class="col-lg-3 col-lg-offset-2">
+                        <img src="images/safewalkarmunextended.JPG" class="safewalkimg">
+                    </div>
+                    <div class="col-lg-3 col-lg-offset-2 description">
+                        The Safewalk is an innovation I developed with classmate during my sophomore year of high school in BCA's Mechatronics Research Lab. It is an innovative walker meant to help prevent falls and increase the mobility of the user. It is fitted with omni wheels which allow the walker to move in x and y directions simultaneously. Additionally, it has an Anti-Fall Arm, which is an arm attached to the front of the walker. When the tilt sensor detects the walker is falling forward, an Arduino microcontroller triggers a motor which rotates and swings the Anti-Fall Arm out to prevent the fall. The Arduino also triggers an LED to blink and a buzzer to sound.
+                    </div>
                 </div>
-                <div class="col-lg-3 col-lg-offset-2 description choc">
-                    BCA has an annual Chocolate Competition, in which students from the Culinary Academy cooperate with engineering students to build a complex chocolate cake. I worked as the engineer for one of the cakes (titled "Hats off to Dr. Seuss"), and I was responsible for designing and constructing the support structure that held up the several top layers of the cake without crushing the fragile bottom layer. The support structure is made up of a polycarbonate base, several segments of PVC pipe functioning as columns (located inside the bottom layer), and a wooden platform. The cake I worked on won first place in the 11th grade category.
-                </div>
-            </div>
-            
-            
-            <div class="row projtitle">
-                <div class="col-lg-6 col-lg-offset-3">
-                    Safewalk
-                </div>
-            </div>
-            <div class="row lastrow">
-                <div class="col-lg-3 col-lg-offset-2">
-                    <img src="images/safewalkarmunextended.JPG" class="safewalkimg">
-                </div>
-                <div class="col-lg-3 col-lg-offset-2 description">
-                    The Safewalk is an innovation I developed with classmate during my sophomore year of high school in BCA's Mechatronics Research Lab. It is an innovative walker meant to help prevent falls and increase the mobility of the user. It is fitted with omni wheels which allow the walker to move in x and y directions simultaneously. Additionally, it has an Anti-Fall Arm, which is an arm attached to the front of the walker. When the tilt sensor detects the walker is falling forward, an Arduino microcontroller triggers a motor which rotates and swings the Anti-Fall Arm out to prevent the fall. The Arduino also triggers an LED to blink and a buzzer to sound.
-                </div>
-            </div>
             </div>
             
             
