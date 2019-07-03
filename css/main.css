@@ -250,3 +250,14 @@ hr {
     max-width: 100%;
     max-height: 400px;
 }
+
+.ios-logo {
+    max-width: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.ios-description {
+    min-height: 150px;
+}
